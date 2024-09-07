@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #FFFFFF;
+    background-color: #AD504D;
+    margin: 0;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.tab.active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tab:focus {
+    outline: none;
+}
+
+.tab:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.pomodoro {
+    text-align: center;
+    background-color: #0000001A;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.timer {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.time-control button {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.time-control button:focus {
+    outline: none;
+}
+
+.time-control button:disabled {
+    color: #FFFFFF1A;
+    cursor: default;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    background-color: #FFFFFF;
+    color: #AD504D;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.controls button:hover {
+    background-color: #FFFFFFBF;
+}

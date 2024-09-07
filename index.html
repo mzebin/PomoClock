@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">PomoClock</h1>
+    <div class="pomodoro">
+        <div class="tab-container">
+            <button class="tab active" id="pomodoro-tab">Pomodoro</button>
+            <button class="tab" id="short-break-tab">Short Break</button>
+            <button class="tab" id="long-break-tab">Long Break</button>
+        </div>
+        <div class="timer">
+            <div class="time-control">
+                <button id="inc-minutes">▲</button>
+                <span id="minutes">25</span>
+                <button id="dec-minutes">▼</button>
+            </div>
+            :
+            <div class="time-control">
+                <button id="inc-seconds">▲</button>
+                <span id="seconds">00</span>
+                <button id="dec-seconds">▼</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-stop">START</button>
+            <button id="reset">RESET</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
